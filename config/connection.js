@@ -9,7 +9,7 @@ const mongoUri = process.env.MONGO_URI ?? config.mongoUri;
 const mongoOptions = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  dbName: "dailydoc-dev",
+  dbName: "chatapp-dev",
 };
 module.exports = () => {
   mongoose
